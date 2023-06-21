@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;600;700&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer base {
+  body {
+      @apply font-[Raleway];
+  }
+  li {
+      @apply px-4;
+      @apply cursor-pointer
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+      to right,
+      rgba(112, 157, 255, 0.8),
+      hsla(242, 74%, 61%, 0.8)   
+  )!important;
+}
+
+.header {
+  text-align: center;
+}
+
+.footer {
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  /* color: whitesmoke; */
+}
+
+/* .portrait {
+  background-image: url(./assets/ev_icon_pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+} */
+
+/* primary 037FFF */
+/* secondary 19202E */
+/* background 10121B */
+
+.title {
+  padding: 5rem 0;
+}
+
+.filterBtn {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color:rgba(112, 157, 255, 0.8)
+}
+
+/* .item {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 3rem;
+  transition: all 1s;
+} */
+
+/* .item-con {
+  width: 100%;
+  padding: 1.5rem;
+  overflow: hidden;
+} */
+
+.item-container {
+  width: 100%;
+
+}
+
+.item-container > img {
+  width: 100%;
+  background-size: cover;
+}
+
+
+/* .buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+} */
+
+/* .button {
+  border: 1px solid #000;
+  background-color: transparent;
+  margin: 5px 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+} */
+
+/* .button:hover {
+  box-shadow: 1px 1px rgb(0,0,0);
+} */
+
+/* .items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+} */
+
+/* .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  min-height: 50px;
+  margin: 4px 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+} */
+
+/* .category {
+  color: #64748b;
+} */
+
+/* .active {
+  background-color: #1e293b;
+  color: #fff;
+} */
