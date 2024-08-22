@@ -5,9 +5,9 @@ import '../index.css';
 
 const Home = () => {
   return (
-    <div name="home" className="w-full md:h-screen bg-primary dark:bg-dark-primary text-white dark:text-black z-10">
+    <div name="home" className="relative md:h-screen w-full bg-primary dark:bg-dark-primary text-white dark:text-black z-10">
       {/* Container */}
-      <div className="max-w-[950px] mx-auto px-10 flex flex-col justify-center h-full">
+      <div className="max-w-[950px] mx-auto px-10 flex flex-col md:justify-center md:h-full">
         <p className="text-gray-100">Hi, my name is</p>
         <h1 className="mb-2 text-4xl sm:text-7xl font-bold text-color1">
           ERIK VARGA
@@ -19,7 +19,7 @@ const Home = () => {
           Data Analyst
         </h2>
         <p className="text-color2 py-4 max-w-[700px]">
-        I am a research developer experienced in both frontend and backend technologies. I enjoy learning new skills, using new coding tools, building and sharing code solutions with the developer community. When I am not working on my computer I enjoy playing the drums, bicycling trails and spending time outdoors in and around  Central Florida!
+        I am a research developer experienced in both frontend and backend technologies. I enjoy learning new skills, using new coding tools, building and sharing code solutions with the developer community.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:text-white hover:bg-blue-800 hover:border-blue-700">

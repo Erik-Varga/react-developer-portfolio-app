@@ -15,7 +15,9 @@ function App() {
     <div className="App">
       <Navbar />
       <ToastContainer autoClose={5000} />
-      <Home />
+      <div className="pt-24 bg-primary">
+        <Home />
+      </div>
       <About />
       <Skills />
       <Work />
