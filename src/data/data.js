@@ -1,25 +1,25 @@
 import WordleImg from '../assets/projects/img_wordle_react_game.png'
-import FirebaseBlogImg from '../assets/projects/img_firebase_blog_app.png'
+import GarageSaleImg from '../assets/projects/img_garage_sale_app.png'
 import ShutTheBoxImg from '../assets/projects/img_shut_the_box_js_game.png'
+import AsteroidsImg from '../assets/projects/img_asteroids_game.png'
 import PomodoroImg from '../assets/projects/img_pomodoro_timer_js_app.png'
-
 
 export const items = [
     {
         id: 1,
+        name:"Garage Sale App",
+        category: 'React JS',
+        image: GarageSaleImg,
+        github:"https://github.com/Erik-Varga/react-vite-garage-sale-app",
+        live:"https://react-private-garage-sale-app.vercel.app",
+    },
+    {
+        id: 2,
         name:"Wordle Game",
         category: 'React JS',
         image: WordleImg,
         github:"https://github.com/Erik-Varga/react-wordle-game",
         live:"https://react-wordle-game-beige.vercel.app/",
-    },
-    {
-        id: 2,
-        name:"Firebase Blog App",
-        category: 'React JS',
-        image: FirebaseBlogImg,
-        github:"https://github.com/Erik-Varga/react-firebase-blog-app",
-        live:"https://react-firebase-blog-app-ten.vercel.app/",
     },
     {
         id: 3,
@@ -37,6 +37,12 @@ export const items = [
         github:"https://github.com/Erik-Varga/js-shut-the-box",
         live:"https://erik-varga.github.io/js-shut-the-box/",
     },
-
-
+    {
+        id: 5,
+        name:"Asteroids Game",
+        category: 'JavaScript',
+        image: AsteroidsImg,
+        github:"https://github.com/Erik-Varga/js-asteroids-game",
+        live:"https://erik-varga.github.io/js-asteroids-game/",
+    },
 ]

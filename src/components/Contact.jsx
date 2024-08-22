@@ -44,7 +44,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            // Submit the form below or send me an email
+            Submit the form below to send me an email
           </p>
         </div>
 
@@ -54,6 +54,7 @@ const Contact = () => {
           className="bg-[#f6f8ff] p-2"
           type="text"
           placeholder="Name"
+          required
         />
 
         {/* email */}
@@ -62,6 +63,7 @@ const Contact = () => {
           className="my-4 p-2 bg-[#f6f8ff]"
           type="email"
           placeholder="Email"
+          required
         />
 
         {/* message */}
@@ -70,6 +72,7 @@ const Contact = () => {
           className="bg-[#f6f8ff] p-2"
           rows="10"
           placeholder="Message"
+          required
         ></textarea>
 
         {/* submit */}

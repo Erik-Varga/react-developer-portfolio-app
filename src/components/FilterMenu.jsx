@@ -6,7 +6,7 @@ function FilterMenu({ menuItem }) {
       {menuItem.map((item) => {
         return (
           <div
-            className="item-container flex flex-col border border-gray-500 hover:border-white"
+            className="item-container flex flex-col justify-between p-1 border border-gray-500 hover:border-white hover:scale-105 transition duration-300 ease-in-out"
             key={item.id}
           >
             <img src={item.image} alt="" />
@@ -39,7 +39,7 @@ function FilterMenu({ menuItem }) {
                         className="text-center rounded-lg px-3 py-3 m-1
                             bg-white text-gray-700 font-bold text-sm"
                         >
-                        Live
+                        Demo
                         </button>
                     </a>
                     </div>

@@ -8,7 +8,6 @@ const allCategories = ['All', ...new Set(items.map(item => item.category))];
 const Work = () => {
   // projects file
   const project = items;
-  //setProject(items);
 
   const [menuItem, setMenuItem] = useState(items);
   const [buttons, setButtons] = useState(allCategories);
@@ -30,7 +29,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-red-700">
             Work
           </p>
-          <p className="py-6">// Check out some of my recent work</p>
+          <p className="py-6">Check out some of my recent work</p>
         </div>
 
         <FilterButton button={buttons} filter={filter} />
