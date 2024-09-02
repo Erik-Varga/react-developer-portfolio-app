@@ -4,10 +4,19 @@ import ShutTheBoxImg from '../assets/projects/img_shut_the_box_js_game.png'
 import AsteroidsImg from '../assets/projects/img_asteroids_game.png'
 import PomodoroImg from '../assets/projects/img_pomodoro_timer_js_app.png'
 import PowerBISoundManImg from '../assets/projects/img_powerbi_soundman_dashboard.png'
+import PowerBIAWReportImg from '../assets/projects/img_powerbi_aw_report.png'
 
 export const items = [
     {
         id: 1,
+        name:"Adventure Works Report",
+        category: 'Power BI',
+        image: PowerBIAWReportImg,
+        github:"https://github.com/Erik-Varga/powerbi-adventureworks-report",
+        live:"https://app.powerbi.com/groups/me/reports/3fe5283e-47ca-4754-979d-a3ff04392211/700dedfbd1e78c34d8ac?experience=power-bi",
+    },
+    {
+        id: 2,
         name:"SoundMan Studio Dashboard",
         category: 'Power BI',
         image: PowerBISoundManImg,
@@ -15,7 +24,7 @@ export const items = [
         live:"https://app.powerbi.com/groups/me/reports/a2a63e2c-ba62-4c9d-b55d-79d8f35d6721/df628c0e9a88c0823136?experience=power-bi",
     },
     {
-        id: 2,
+        id: 3,
         name:"Garage Sale App",
         category: 'React JS',
         image: GarageSaleImg,
@@ -23,7 +32,7 @@ export const items = [
         live:"https://react-private-garage-sale-app.vercel.app",
     },
     {
-        id: 3,
+        id: 4,
         name:"Wordle Game",
         category: 'React JS',
         image: WordleImg,
@@ -31,7 +40,7 @@ export const items = [
         live:"https://react-wordle-game-beige.vercel.app/",
     },
     {
-        id: 4,
+        id: 5,
         name:"Pomodoro Timer App",
         category: 'React JS',
         image: PomodoroImg,
@@ -39,7 +48,7 @@ export const items = [
         live:"https://react-pomodoro-timer-app.vercel.app/",
     },
     {
-        id: 5,
+        id: 6,
         name:"Shut The Box Game",
         category: 'JavaScript',
         image: ShutTheBoxImg,
@@ -47,7 +56,7 @@ export const items = [
         live:"https://erik-varga.github.io/js-shut-the-box/",
     },
     {
-        id: 6,
+        id: 7,
         name:"Asteroids Game",
         category: 'JavaScript',
         image: AsteroidsImg,
