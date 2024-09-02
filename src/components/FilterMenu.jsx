@@ -2,7 +2,7 @@ import React from "react";
 
 function FilterMenu({ menuItem }) {
   return (
-    <div className="item grid sm:grid-cols-2 md:grid-cols-4 gap-3">
+    <div className="item grid md:grid-cols-2 gap-3">
       {menuItem.map((item) => {
         return (
           <div

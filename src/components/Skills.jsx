@@ -4,7 +4,10 @@ import HTML_Img from "../assets/html.png";
 import CSS_Img from "../assets/css.png";
 import JavaScript_Img from "../assets/javascript.png";
 import React_Img from "../assets/react.png";
-import NextJS_Img from "../assets/nextjs.png";
+// import NextJS_Img from "../assets/nextjs.png";
+import Excel_Img from "../assets/excel.png";
+import SPSS_Img from "../assets/spss.png";
+import Snap_Img from "../assets/snapsurveys.png";
 // import Node_Img from '../assets/node.png';
 import FireBase_Img from "../assets/firebase.png";
 import Windows_Img from "../assets/windows-sbs.png";
@@ -43,6 +46,24 @@ const Skills = () => {
             <p className="my-4">SQL</p>
           </div>
 
+           {/* spss */}
+           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={SPSS_Img} alt="SPSS icon" />
+            <p className="my-4">IBM SPSS</p>
+          </div>
+
+          {/* excel */}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto p-1 bg-white rounded-full border border-slate-800" src={Excel_Img} alt="HTML icon" />
+            <p className="my-4">EXCEL</p>
+          </div>
+
+          {/* snap */}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto p-1 bg-white border border-slate-800" src={Snap_Img} alt="HTML icon" />
+            <p className="my-4">SNAP SURVEYS</p>
+          </div>
+
           {/* javascript */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1" src={JavaScript_Img} alt="HTML icon" />
@@ -55,12 +76,7 @@ const Skills = () => {
             <p className="my-4">REACT</p>
           </div>
 
-          {/* nextjs */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto p-1 bg-white rounded-full border border-slate-800" src={NextJS_Img} alt="HTML icon" />
-            <p className="my-4">NEXT JS</p>
-          </div>
-
+         
           {/* python */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1" src={Python_Img} alt="HTML icon" />
@@ -86,42 +102,35 @@ const Skills = () => {
             <p className="my-4">FIREBASE</p>
           </div>
 
-          {/* firebase */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Windows_Img} alt="HTML icon" />
-            <p className="my-4">WINDOWS SERVER</p>
-          </div>
-
           {/* tailwind */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind_Img} alt="HTML icon" />
             <p className="my-4">TAILWIND</p>
           </div>
 
-          {/* tailwind */}
+          {/* css */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={CSS_Img} alt="HTML icon" />
+            <p className="my-4">CSS</p>
+          </div>
+
+          {/* html */}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={HTML_Img} alt="HTML icon" />
+            <p className="my-4">HTML</p>
+          </div>
+
+           {/* office pro */}
+           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={OfficePro_Img} alt="HTML icon" />
             <p className="my-4">OFFICE PRO</p>
           </div>
-
-          {/* chatgpt */}
-          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ChatGPT_Img} alt="ChatGPT icon" />
-            <p className="my-4">CHATGPT</p>
-          </div> */}
-
           
-          {/* css */}
-          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS_Img} alt="HTML icon" />
-            <p className="my-4">CSS</p>
-          </div> */}
-
-          {/* html */}
-          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML_Img} alt="HTML icon" />
-            <p className="my-4">HTML</p>
-          </div> */}
+          {/* windows server */}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Windows_Img} alt="HTML icon" />
+            <p className="my-4">WINDOWS SERVER</p>
+          </div>
         </div>
       </div>
     </div>
