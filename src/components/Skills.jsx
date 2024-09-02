@@ -1,24 +1,24 @@
 import React from "react";
 
-import HTML_Img from "../assets/html.png";
-import CSS_Img from "../assets/css.png";
-import JavaScript_Img from "../assets/javascript.png";
-import React_Img from "../assets/react.png";
-// import NextJS_Img from "../assets/nextjs.png";
-import Excel_Img from "../assets/excel.png";
-import SPSS_Img from "../assets/spss.png";
-import Snap_Img from "../assets/snapsurveys.png";
-// import Node_Img from '../assets/node.png';
-import FireBase_Img from "../assets/firebase.png";
-import Windows_Img from "../assets/windows-sbs.png";
-import ChatGPT_Img from "../assets/chatgpt.png";
-// import GitHub_Img from '../assets/github.png';
-import Tailwind_Img from "../assets/tailwind.png";
-// import Mongo_Img from '../assets/mongo.png';
-import SQL_Img from '../assets/sql.png';
-import Python_Img from "../assets/python.png";
-import PowerBI_Img from '../assets/powerbi.png';
-import OfficePro_Img from '../assets/microsoft-office.png';
+import HTML_Img from "../assets/skills/html.png";
+import CSS_Img from "../assets/skills/css.png";
+import JavaScript_Img from "../assets/skills/javascript.png";
+import React_Img from "../assets/skills/react.png";
+// import NextJS_Img from "../assets/skills/nextjs.png";
+import Excel_Img from "../assets/skills/excel.png";
+import SPSS_Img from "../assets/skills/spss.png";
+import Snap_Img from "../assets/skills/snapsurveys.png";
+// import Node_Img from '../assets/skills/node.png';
+import FireBase_Img from "../assets/skills/firebase.png";
+import Windows_Img from "../assets/skills/windows-sbs.png";
+import ChatGPT_Img from "../assets/skills/chatgpt.png";
+// import GitHub_Img from '../assets/skills/github.png';
+import Tailwind_Img from "../assets/skills/tailwind.png";
+// import Mongo_Img from '../assets/skills/mongo.png';
+import SQL_Img from '../assets/skills/sql.png';
+import Python_Img from "../assets/skills/python.png";
+import PowerBI_Img from '../assets/skills/powerbi.png';
+import OfficePro_Img from '../assets/skills/microsoft-office.png';
 
 const Skills = () => {
   return (

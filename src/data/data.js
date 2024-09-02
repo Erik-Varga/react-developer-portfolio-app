@@ -5,6 +5,7 @@ import AsteroidsImg from '../assets/projects/img_asteroids_game.png'
 import PomodoroImg from '../assets/projects/img_pomodoro_timer_js_app.png'
 import PowerBISoundManImg from '../assets/projects/img_powerbi_soundman_dashboard.png'
 import PowerBIAWReportImg from '../assets/projects/img_powerbi_aw_report.png'
+import ReactClockImg from '../assets/projects/img_react_clock_app.png'
 
 export const items = [
     {
@@ -62,5 +63,13 @@ export const items = [
         image: AsteroidsImg,
         github:"https://github.com/Erik-Varga/js-asteroids-game",
         live:"https://erik-varga.github.io/js-asteroids-game/",
+    },
+    {
+        id: 8,
+        name:"React Clock App",
+        category: 'React JS',
+        image: ReactClockImg,
+        github:"https://github.com/Erik-Varga/react-clock-app",
+        live:"https://react-clock-app-brown.vercel.app",
     },
 ]
