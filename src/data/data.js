@@ -8,8 +8,17 @@ import PowerBIAWReportImg from '../assets/projects/img_powerbi_aw_report.png'
 import ReactClockImg from '../assets/projects/img_react_clock_app.png'
 import PowerBIHRReportImg from '../assets/projects/img_powerbi_hr_report.png'
 import PowerBISuperstoreDashboardImg from '../assets/projects/img_powerbi_superstore_dashboard.png'
+import ExcelWithPythonImg from '../assets/img_excel_with_python.png'
 
 export const items = [
+    {
+        id: 20240909,
+        name:"Sales Dashboard with Python Pandas",
+        category: 'Excel',
+        image: ExcelWithPythonImg,
+        github:"https://github.com/Erik-Varga/excel-sales-w-python",
+        live:"https://github.com/Erik-Varga/excel-sales-w-python",
+    },
     {
         id: 20240908,
         name:"Superstore Dashboard",
