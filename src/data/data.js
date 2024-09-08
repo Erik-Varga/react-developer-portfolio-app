@@ -83,7 +83,7 @@ export const items = [
         live:"https://erik-varga.github.io/js-asteroids-game/",
     },
     {
-        id: 20240724,
+        id: 20240501,
         name:"React Clock App",
         category: 'React JS',
         image: ReactClockImg,
