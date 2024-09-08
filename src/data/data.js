@@ -6,10 +6,19 @@ import PomodoroImg from '../assets/projects/img_pomodoro_timer_js_app.png'
 import PowerBISoundManImg from '../assets/projects/img_powerbi_soundman_dashboard.png'
 import PowerBIAWReportImg from '../assets/projects/img_powerbi_aw_report.png'
 import ReactClockImg from '../assets/projects/img_react_clock_app.png'
+import PowerBIHRReportImg from '../assets/projects/img_powerbi_hr_report.png'
 
 export const items = [
     {
-        id: 1,
+        id: 20240907,
+        name:"Spud Shop HR Report",
+        category: 'Power BI',
+        image: PowerBIHRReportImg,
+        github:"https://github.com/Erik-Varga/powerbi-spudshop-hr-dashboard",
+        live:"https://app.powerbi.com/groups/me/reports/41bbeadd-1721-4755-be82-45769b641183/ReportSectioned1f63c834043db4031c?experience=power-bi",
+    },
+    {
+        id: 20240901,
         name:"Adventure Works Report",
         category: 'Power BI',
         image: PowerBIAWReportImg,
@@ -17,7 +26,7 @@ export const items = [
         live:"https://app.powerbi.com/groups/me/reports/3fe5283e-47ca-4754-979d-a3ff04392211/700dedfbd1e78c34d8ac?experience=power-bi",
     },
     {
-        id: 2,
+        id: 20240724,
         name:"SoundMan Studio Dashboard",
         category: 'Power BI',
         image: PowerBISoundManImg,
@@ -25,7 +34,7 @@ export const items = [
         live:"https://app.powerbi.com/groups/me/reports/a2a63e2c-ba62-4c9d-b55d-79d8f35d6721/df628c0e9a88c0823136?experience=power-bi",
     },
     {
-        id: 3,
+        id: 20240723,
         name:"Garage Sale App",
         category: 'React JS',
         image: GarageSaleImg,
@@ -33,7 +42,7 @@ export const items = [
         live:"https://react-private-garage-sale-app.vercel.app",
     },
     {
-        id: 4,
+        id: 20230606,
         name:"Wordle Game",
         category: 'React JS',
         image: WordleImg,
@@ -41,7 +50,7 @@ export const items = [
         live:"https://react-wordle-game-beige.vercel.app/",
     },
     {
-        id: 5,
+        id: 20230617,
         name:"Pomodoro Timer App",
         category: 'React JS',
         image: PomodoroImg,
@@ -49,7 +58,7 @@ export const items = [
         live:"https://react-pomodoro-timer-app.vercel.app/",
     },
     {
-        id: 6,
+        id: 20230513,
         name:"Shut The Box Game",
         category: 'JavaScript',
         image: ShutTheBoxImg,
@@ -57,7 +66,7 @@ export const items = [
         live:"https://erik-varga.github.io/js-shut-the-box/",
     },
     {
-        id: 7,
+        id: 20230516,
         name:"Asteroids Game",
         category: 'JavaScript',
         image: AsteroidsImg,
@@ -65,7 +74,7 @@ export const items = [
         live:"https://erik-varga.github.io/js-asteroids-game/",
     },
     {
-        id: 8,
+        id: 20240724,
         name:"React Clock App",
         category: 'React JS',
         image: ReactClockImg,
