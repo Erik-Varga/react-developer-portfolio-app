@@ -7,8 +7,17 @@ import PowerBISoundManImg from '../assets/projects/img_powerbi_soundman_dashboar
 import PowerBIAWReportImg from '../assets/projects/img_powerbi_aw_report.png'
 import ReactClockImg from '../assets/projects/img_react_clock_app.png'
 import PowerBIHRReportImg from '../assets/projects/img_powerbi_hr_report.png'
+import PowerBISuperstoreDashboardImg from '../assets/projects/img_powerbi_superstore_dashboard.png'
 
 export const items = [
+    {
+        id: 20240908,
+        name:"Superstore Dashboard",
+        category: 'Power BI',
+        image: PowerBISuperstoreDashboardImg,
+        github:"https://github.com/Erik-Varga/powerbi-superstore-dashboard",
+        live:"https://app.powerbi.com/groups/me/reports/3ce00ec9-f36c-4e24-9481-058d061c909c/ReportSectioned1f63c834043db4031c?experience=power-bi",
+    },
     {
         id: 20240907,
         name:"Spud Shop HR Report",
