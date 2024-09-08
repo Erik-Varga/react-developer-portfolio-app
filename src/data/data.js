@@ -8,7 +8,7 @@ import PowerBIAWReportImg from '../assets/projects/img_powerbi_aw_report.png'
 import ReactClockImg from '../assets/projects/img_react_clock_app.png'
 import PowerBIHRReportImg from '../assets/projects/img_powerbi_hr_report.png'
 import PowerBISuperstoreDashboardImg from '../assets/projects/img_powerbi_superstore_dashboard.png'
-import ExcelWithPythonImg from '../assets/img_excel_with_python.png'
+import ExcelWithPythonImg from '../assets/projects/img_excel_with_python.png'
 
 export const items = [
     {
