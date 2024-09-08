@@ -35,99 +35,99 @@ const Skills = () => {
         {/* grid */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-5 text-center py-8">
           {/* power bi */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1" src={PowerBI_Img} alt="HTML icon" />
             <p className="my-4">POWER BI</p>
           </div>
 
           {/* sql */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1" src={SQL_Img} alt="HTML icon" />
             <p className="my-4">SQL</p>
           </div>
 
            {/* spss */}
-           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+           <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={SPSS_Img} alt="SPSS icon" />
             <p className="my-4">IBM SPSS</p>
           </div>
 
           {/* excel */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1 bg-white rounded-full border border-slate-800" src={Excel_Img} alt="HTML icon" />
             <p className="my-4">EXCEL</p>
           </div>
 
           {/* snap */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1 bg-white border border-slate-800" src={Snap_Img} alt="HTML icon" />
             <p className="my-4">SNAP SURVEYS</p>
           </div>
 
           {/* javascript */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1" src={JavaScript_Img} alt="HTML icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
 
           {/* react */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1" src={React_Img} alt="HTML icon" />
             <p className="my-4">REACT</p>
           </div>
 
          
           {/* python */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1" src={Python_Img} alt="HTML icon" />
             <p className="my-4">PYTHON</p>
           </div>
 
 
           {/* node js */}
-          {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          {/* <div className='flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Node_Img} alt="HTML icon" />
                   <p className='my-4'>NODE JS</p>
               </div> */}
 
           {/* mongo db */}
-          {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          {/* <div className='flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Mongo_Img} alt="HTML icon" />
                   <p className='my-4'>MONGO DB</p>
               </div> */}
 
           {/* firebase */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={FireBase_Img} alt="HTML icon" />
             <p className="my-4">FIREBASE</p>
           </div>
 
           {/* tailwind */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind_Img} alt="HTML icon" />
             <p className="my-4">TAILWIND</p>
           </div>
 
           {/* css */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={CSS_Img} alt="HTML icon" />
             <p className="my-4">CSS</p>
           </div>
 
           {/* html */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={HTML_Img} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
 
            {/* office pro */}
-           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+           <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={OfficePro_Img} alt="HTML icon" />
             <p className="my-4">OFFICE PRO</p>
           </div>
           
           {/* windows server */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Windows_Img} alt="HTML icon" />
             <p className="my-4">WINDOWS SERVER</p>
           </div>
