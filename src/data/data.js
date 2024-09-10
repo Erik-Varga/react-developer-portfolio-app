@@ -9,8 +9,17 @@ import ReactClockImg from '../assets/projects/img_react_clock_app.png'
 import PowerBIHRReportImg from '../assets/projects/img_powerbi_hr_report.png'
 import PowerBISuperstoreDashboardImg from '../assets/projects/img_powerbi_superstore_dashboard.png'
 import ExcelWithPythonImg from '../assets/projects/img_excel_with_python.png'
+import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 
 export const items = [
+    {
+        id: 20240910,
+        name:"Customer Satisfaction Analysis",
+        category: 'Power BI',
+        image: PowerBICustomerSatisfactionImg,
+        github:"https://github.com/Erik-Varga/powerbi-customer-satisfaction",
+        live:"https://app.powerbi.com/groups/me/reports/d0eca697-7429-41d2-a117-34c1a437f601/33785c92d381068aba97?experience=power-bi",
+    },
     {
         id: 20240909,
         name:"Sales Dashboard with Python Pandas",
