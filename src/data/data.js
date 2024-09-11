@@ -18,7 +18,8 @@ export const items = [
         category: 'Power BI',
         image: PowerBICustomerSatisfactionImg,
         github:"https://github.com/Erik-Varga/powerbi-customer-satisfaction",
-        live:"https://app.powerbi.com/groups/me/reports/d0eca697-7429-41d2-a117-34c1a437f601/33785c92d381068aba97?experience=power-bi",
+        // live:"https://app.powerbi.com/groups/me/reports/d0eca697-7429-41d2-a117-34c1a437f601/33785c92d381068aba97?experience=power-bi",
+        live:"https://app.powerbi.com/view?r=eyJrIjoiNzkyODE0ZjUtMTU5YS00Njg1LTk4NmYtYWRmNGYyNWI3OGNmIiwidCI6ImRkYzg3Y2EyLTQ5MjgtNDY2Yi04YmMxLTRlYjM0NDIxNDFiMSIsImMiOjJ9",
     },
     {
         id: 20240909,
