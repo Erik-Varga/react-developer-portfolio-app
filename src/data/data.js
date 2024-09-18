@@ -10,8 +10,17 @@ import PowerBIHRReportImg from '../assets/projects/img_powerbi_hr_report.png'
 import PowerBISuperstoreDashboardImg from '../assets/projects/img_powerbi_superstore_dashboard.png'
 import ExcelWithPythonImg from '../assets/projects/img_excel_with_python.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
+import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
 
 export const items = [
+    {
+        id: 20240918,
+        name:"Melonhead Farms Dashboard",
+        category: 'Power BI',
+        image: PowerBIMelonheadFarmsImg,
+        github:"https://github.com/Erik-Varga/powerbi-melonhead-farms",
+        live:"https://app.powerbi.com/view?r=eyJrIjoiNzdjOTU1MDYtODhhYi00NDY2LTk4N2QtYWE2ZDY2MzZhOTM5IiwidCI6ImRkYzg3Y2EyLTQ5MjgtNDY2Yi04YmMxLTRlYjM0NDIxNDFiMSIsImMiOjJ9",
+    },
     {
         id: 20240910,
         name:"Customer Satisfaction Analysis",
