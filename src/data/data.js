@@ -11,10 +11,19 @@ import PowerBISuperstoreDashboardImg from '../assets/projects/img_powerbi_supers
 import ExcelWithPythonImg from '../assets/projects/img_excel_with_python.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
+import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
 
 export const items = [
     {
         id: 20240918,
+        name:"Corner Bakery Cafe",
+        category: 'Powerpoint',
+        image: PowerpointCornerBakeryImg,
+        github:"https://github.com/Erik-Varga/powerpoint-corner-bakery",
+        live:"https://1drv.ms/p/c/165f4e88b464a12d/EeRgX4tbcoJImTpd_ZsZOm8BMvF1y1nVexz99WXP_RlMBQ?e=WL6h56",
+    },
+    {
+        id: 20240917,
         name:"Melonhead Farms Dashboard",
         category: 'Power BI',
         image: PowerBIMelonheadFarmsImg,
