@@ -20,7 +20,7 @@ export const items = [
         category: 'Powerpoint',
         image: PowerpointCornerBakeryImg,
         github:"https://github.com/Erik-Varga/powerpoint-corner-bakery",
-        live:"https://1drv.ms/p/c/165f4e88b464a12d/EeRgX4tbcoJImTpd_ZsZOm8BMvF1y1nVexz99WXP_RlMBQ?e=WL6h56",
+        live:"https://github.com/Erik-Varga/powerpoint-corner-bakery/blob/main/Corner%20Bakery%20Cafe%20Annual%20Report.pdf",
     },
     {
         id: 20240917,
