@@ -2,7 +2,7 @@ import WordleImg from '../assets/projects/img_wordle_react_game.png'
 import GarageSaleImg from '../assets/projects/img_garage_sale_app.png'
 import ShutTheBoxImg from '../assets/projects/img_shut_the_box_js_game.png'
 import AsteroidsImg from '../assets/projects/img_asteroids_game.png'
-import PomodoroImg from '../assets/projects/img_pomodoro_timer_js_app.png'
+import MemoryGameImg from '../assets/projects/img_react_memory_game.png'
 import PowerBISoundManImg from '../assets/projects/img_powerbi_soundman_dashboard.png'
 import PowerBIAWReportImg from '../assets/projects/img_powerbi_aw_report.png'
 import ReactClockImg from '../assets/projects/img_react_clock_app.png'
@@ -14,6 +14,14 @@ import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_f
 import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
 
 export const items = [
+    {
+        id: 20240918,
+        name:"Corner Bakery Cafe",
+        category: 'Powerpoint',
+        image: PowerpointCornerBakeryImg,
+        github:"https://github.com/Erik-Varga/powerpoint-corner-bakery",
+        live:"https://github.com/Erik-Varga/powerpoint-corner-bakery/blob/main/Corner%20Bakery%20Cafe%20Annual%20Report.pdf",
+    },
     {
         id: 20240918,
         name:"Corner Bakery Cafe",
@@ -97,10 +105,10 @@ export const items = [
     },
     {
         id: 20230617,
-        name:"Pomodoro Timer App",
+        name:"Memory Game",
         category: 'React JS',
-        image: PomodoroImg,
-        github:"https://github.com/Erik-Varga/react-pomodoro-timer-app",
+        image: MemoryGameImg,
+        github:"https://github.com/Erik-Varga/react-memory-game",
         live:"https://react-pomodoro-timer-app.vercel.app/",
     },
     {
