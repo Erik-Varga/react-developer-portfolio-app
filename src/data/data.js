@@ -23,14 +23,6 @@ export const items = [
         live:"https://github.com/Erik-Varga/powerpoint-corner-bakery/blob/main/Corner%20Bakery%20Cafe%20Annual%20Report.pdf",
     },
     {
-        id: 20240918,
-        name:"Corner Bakery Cafe",
-        category: 'Powerpoint',
-        image: PowerpointCornerBakeryImg,
-        github:"https://github.com/Erik-Varga/powerpoint-corner-bakery",
-        live:"https://github.com/Erik-Varga/powerpoint-corner-bakery/blob/main/Corner%20Bakery%20Cafe%20Annual%20Report.pdf",
-    },
-    {
         id: 20240917,
         name:"Melonhead Farms Dashboard",
         category: 'Power BI',
@@ -109,7 +101,7 @@ export const items = [
         category: 'React JS',
         image: MemoryGameImg,
         github:"https://github.com/Erik-Varga/react-memory-game",
-        live:"https://react-pomodoro-timer-app.vercel.app/",
+        live:"https://react-memory-game-omega-coral.vercel.app/",
     },
     {
         id: 20230513,
