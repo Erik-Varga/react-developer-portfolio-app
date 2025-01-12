@@ -2,13 +2,11 @@ import WordleImg from '../assets/projects/img_wordle_react_game.png'
 import GarageSaleImg from '../assets/projects/img_garage_sale_app.png'
 import ShutTheBoxImg from '../assets/projects/img_shut_the_box_js_game.png'
 import AsteroidsImg from '../assets/projects/img_asteroids_game.png'
-import MemoryGameImg from '../assets/projects/img_react_memory_game.png'
 import PowerBISoundManImg from '../assets/projects/img_powerbi_soundman_dashboard.png'
 import PowerBIAWReportImg from '../assets/projects/img_powerbi_aw_report.png'
-import ReactClockImg from '../assets/projects/img_react_clock_app.png'
 import PowerBIHRReportImg from '../assets/projects/img_powerbi_hr_report.png'
 import PowerBISuperstoreDashboardImg from '../assets/projects/img_powerbi_superstore_dashboard.png'
-import ExcelWithPythonImg from '../assets/projects/img_excel_with_python.png'
+import ExcelMilestoneImg from '../assets/projects/img_excel_milestone_form.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
 import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
@@ -48,14 +46,14 @@ export const items = [
         // live:"https://app.powerbi.com/groups/me/reports/d0eca697-7429-41d2-a117-34c1a437f601/33785c92d381068aba97?experience=power-bi",
         live:"https://app.powerbi.com/view?r=eyJrIjoiNzkyODE0ZjUtMTU5YS00Njg1LTk4NmYtYWRmNGYyNWI3OGNmIiwidCI6ImRkYzg3Y2EyLTQ5MjgtNDY2Yi04YmMxLTRlYjM0NDIxNDFiMSIsImMiOjJ9",
     },
-    // {
-    //     id: 20240909,
-    //     name:"Sales Dashboard with Python Pandas",
-    //     category: 'Excel',
-    //     image: ExcelWithPythonImg,
-    //     github:"https://github.com/Erik-Varga/excel-sales-w-python",
-    //     live:"https://github.com/Erik-Varga/excel-sales-w-python",
-    // },
+    {
+        id: 20240909,
+        name:"Milestone Sales Form with VB Script",
+        category: 'Excel',
+        image: ExcelMilestoneImg,
+        github:"https://github.com/Erik-Varga/excel-milestone",
+        live:"https://github.com/Erik-Varga/excel-milestone",
+    },
     {
         id: 20240908,
         name:"Superstore Dashboard",
