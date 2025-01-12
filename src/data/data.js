@@ -7,6 +7,7 @@ import PowerBIAWReportImg from '../assets/projects/img_powerbi_aw_report.png'
 import PowerBIHRReportImg from '../assets/projects/img_powerbi_hr_report.png'
 import PowerBISuperstoreDashboardImg from '../assets/projects/img_powerbi_superstore_dashboard.png'
 import ExcelMilestoneImg from '../assets/projects/img_excel_milestone_form.png'
+import ExcelDailyTrackerImg from '../assets/projects/img_excel_daily_tracker.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
 import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
@@ -95,13 +96,21 @@ export const items = [
         live:"https://react-private-garage-sale-app.vercel.app",
     },
     {
-        id: 20230606,
-        name:"Wordle Game",
-        category: 'React JS',
-        image: WordleImg,
-        github:"https://github.com/Erik-Varga/react-wordle-game",
-        live:"https://react-wordle-game-beige.vercel.app/",
+        id: 20250111,
+        name:"Daily Activity Tracker",
+        category: 'Excel',
+        image: ExcelDailyTrackerImg,
+        github:"https://github.com/Erik-Varga/excel-activity-tracker",
+        live:"https://github.com/Erik-Varga/excel-activity-tracker",
     },
+    // {
+    //     id: 20230606,
+    //     name:"Wordle Game",
+    //     category: 'React JS',
+    //     image: WordleImg,
+    //     github:"https://github.com/Erik-Varga/react-wordle-game",
+    //     live:"https://react-wordle-game-beige.vercel.app/",
+    // },
     // {
     //     id: 20230617,
     //     name:"Memory Game",
