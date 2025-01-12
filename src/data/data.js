@@ -8,6 +8,7 @@ import PowerBIHRReportImg from '../assets/projects/img_powerbi_hr_report.png'
 import PowerBISuperstoreDashboardImg from '../assets/projects/img_powerbi_superstore_dashboard.png'
 import ExcelMilestoneImg from '../assets/projects/img_excel_milestone_form.png'
 import ExcelDailyTrackerImg from '../assets/projects/img_excel_daily_tracker.png'
+import ExcelWeeklyTimesheetImg from '../assets/projects/img_excel_weekly_timesheet.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
 import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
@@ -102,6 +103,14 @@ export const items = [
         image: ExcelDailyTrackerImg,
         github:"https://github.com/Erik-Varga/excel-activity-tracker",
         live:"https://github.com/Erik-Varga/excel-activity-tracker",
+    },
+    {
+        id: 20250110,
+        name:"Weekly Timesheet",
+        category: 'Excel',
+        image: ExcelWeeklyTimesheetImg,
+        github:"https://github.com/Erik-Varga/excel-weekly-timesheet",
+        live:"https://github.com/Erik-Varga/excel-weekly-timesheet",
     },
     // {
     //     id: 20230606,
