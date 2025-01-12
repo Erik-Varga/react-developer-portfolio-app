@@ -12,8 +12,17 @@ import ExcelWithPythonImg from '../assets/projects/img_excel_with_python.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
 import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
+import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
 
 export const items = [
+    {
+        id: 20250112,
+        name:"SQL Syntax & Results",
+        category: 'SQL',
+        image: SQLSyntaxResultsImg,
+        github:"https://github.com/Erik-Varga/sql-syntax-results",
+        live:"https://github.com/Erik-Varga/sql-syntax-results/blob/main/SQL%20Syntax%20%26%20Results.pdf",
+    },
     {
         id: 20240918,
         name:"Corner Bakery Cafe",
