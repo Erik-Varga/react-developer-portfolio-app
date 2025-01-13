@@ -10,6 +10,7 @@ import ExcelMilestoneImg from '../assets/projects/img_excel_milestone_form.png'
 import ExcelDailyTrackerImg from '../assets/projects/img_excel_daily_tracker.png'
 import ExcelInvoiceTrackerImg from '../assets/projects/img_excel_invoice_tracker.png'
 import ExcelWeeklyTimesheetImg from '../assets/projects/img_excel_weekly_timesheet.png'
+import ExcelBookkeepingDashboardImg from '../assets/projects/img_excel_bookkeeping_dashboard.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
 import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
@@ -120,6 +121,14 @@ export const items = [
         image: ExcelInvoiceTrackerImg,
         github:"https://github.com/Erik-Varga/excel-invoice-tracker",
         live:"https://github.com/Erik-Varga/excel-invoice-tracker",
+    },
+    {
+        id: 20250108,
+        name:"Bookkeeping Dashboard",
+        category: 'Excel',
+        image: ExcelBookkeepingDashboardImg,
+        github:"https://github.com/Erik-Varga/excel-bookkeeping-dashboard",
+        live:"https://github.com/Erik-Varga/excel-bookkeeping-dashboard",
     },
     // {
     //     id: 20230606,
