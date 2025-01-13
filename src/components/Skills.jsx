@@ -14,10 +14,12 @@ import Windows_Img from "../assets/skills/windows-sbs.png";
 import ChatGPT_Img from "../assets/skills/chatgpt.png";
 import GitHub_Img from '../assets/skills/github.png';
 import Tailwind_Img from "../assets/skills/tailwind.png";
+
 // import Mongo_Img from '../assets/skills/mongo.png';
 import SQL_Img from '../assets/skills/sql.png';
 import MySQL_Img from '../assets/skills/mysql.png';
 import Python_Img from "../assets/skills/python.png";
+import Jupyter_Img from '../assets/skills/jupyter_notebook.png';
 import PowerBI_Img from '../assets/skills/powerbi.png';
 import OfficePro_Img from '../assets/skills/microsoft-office.png';
 
@@ -83,6 +85,11 @@ const Skills = () => {
             <img className="w-20 mx-auto p-1" src={Python_Img} alt="HTML icon" />
             <p className="my-4">PYTHON</p>
           </div>
+          {/* jupyter */}
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto p-1" src={Jupyter_Img} alt="HTML icon" />
+            <p className="my-4">JUPYTER NOTEBOOK</p>
+          </div>
 
 
           {/* node js */}
@@ -122,10 +129,10 @@ const Skills = () => {
           </div>
 
            {/* office pro */}
-           <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+           {/* <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={OfficePro_Img} alt="HTML icon" />
             <p className="my-4">OFFICE PRO</p>
-          </div>
+          </div> */}
 
            {/* mysql */}
            <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
