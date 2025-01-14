@@ -8,9 +8,12 @@ import { LiaBroomSolid } from 'react-icons/lia';
 import { PiFunnel } from 'react-icons/pi';
 import { BsBarChartLine } from 'react-icons/bs';
 import { WindowSize } from './WindowSize';
-import { CgDrive } from 'react-icons/cg';
+import { CgChart, CgDrive } from 'react-icons/cg';
 import { BiRightArrow, BiRightArrowAlt } from 'react-icons/bi';
 import { GiCycle } from 'react-icons/gi';
+import { FcSurvey } from 'react-icons/fc';
+import { MdDataset, MdDatasetLinked, MdOutlineDataset } from 'react-icons/md';
+import { GrPieChart } from 'react-icons/gr';
 
 const Home = () => {
   const size = 25;
@@ -24,13 +27,16 @@ const Home = () => {
           ERIK VARGA
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-color2">
-          Research, Developer,
+          Research Developer,
         </h2>
         <h2 className="text-4xl sm:text-7xl font-bold text-color2">
-           Analyst
+           Data Analyst,
         </h2>
-        <p className="text-color2 py-4 max-w-[900px]">
-        <div className='flex flex-col md:flex-row items-center gap-5 my-5 text-white font-bold border border-gray-500 p-5 rounded-sm'>
+        <h2 className="text-4xl sm:text-7xl font-bold text-color2">
+          Business Intelligence
+        </h2>
+        <p className="text-color2 py-4">
+        <div className='flex flex-col md:flex-row justify-around items-center gap-5 my-5 text-white font-bold border border-gray-500 p-5 rounded-sm'>
           <div className='flex items-center gap-2 hover:text-green-400'>
             <HiMiniCircleStack size={size} /> Data Gathering         
           </div>
@@ -45,8 +51,19 @@ const Home = () => {
           </div>
 
         </div>
-        I am a research developer experienced in both frontend and backend technologies. I enjoy learning new skills, using new coding tools, building and sharing code solutions with the developer community.
+        I am a research developer experienced in <span className="font-bold">Qualitative / Quantitative Skills and Technical Programming Languages</span>. I enjoy learning new business skills, utilizing the latest coding tools, building and sharing code solutions to improve the quality of the business orgranization. 
+          
+          <span className='ml-2 font-bold text-white hover:text-green-400 hover:cursor-pointer'>
+            <Link to="about" smooth={true} duration={500}>
+              Learn More
+            </Link>
+          </span>
         </p>
+        <div className='flex items-center justify-start gap-5'>
+          <div className='flex flex-col justify-center'><FcSurvey size={size*2} />Surveys</div>
+          <div className='flex flex-col justify-center'><MdOutlineDataset size={size*2} />Datasets</div>
+          <div className='flex flex-col justify-center'><CgChart size={size*2} />Analytics</div>
+        </div>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:text-white hover:bg-blue-800 hover:border-blue-700">
             <Link to="work" smooth={true} duration={500}>
