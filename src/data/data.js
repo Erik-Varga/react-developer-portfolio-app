@@ -14,9 +14,18 @@ import ExcelBookkeepingDashboardImg from '../assets/projects/img_excel_bookkeepi
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
 import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
-import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
+import ReactAppWriteVotingAppImg from '../assets/projects/img_react_appwrite_voting_app.png'
+
 
 export const items = [
+    {
+        id: 20250114,
+        name:"Realtime Voting App",
+        category: 'React JS',
+        image: ReactAppWriteVotingAppImg,
+        github:"https://github.com/Erik-Varga/react-vite-appwrite-voting-app",
+        live:"https://react-vite-appwrite-voting-app.vercel.app/",
+    },
     {
         id: 20250112,
         name:"SQL Syntax & Results",
