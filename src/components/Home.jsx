@@ -13,6 +13,8 @@ import { BiRightArrow, BiRightArrowAlt } from 'react-icons/bi';
 import { GiCycle } from 'react-icons/gi';
 
 const Home = () => {
+  const size = 25;
+  
   return (
     <div name="home" className="relative md:h-screen w-full bg-primary dark:bg-dark-primary text-white dark:text-black z-10">
       {/* Container */}
@@ -27,13 +29,21 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-color2">
            Analyst
         </h2>
-        <p className="text-color2 py-4 max-w-[700px]">
+        <p className="text-color2 py-4 max-w-[900px]">
         <div className='flex flex-col md:flex-row items-center gap-5 my-5 text-white font-bold border border-gray-500 p-5 rounded-sm'>
-          <div className='flex items-center gap-3'>DATA <GiCycle className='text-3xl' /></div>
-          <HiMiniCircleStack className='text-5xl hover:text-green-400'/> Gathering         
-          <LiaBroomSolid className='text-5xl hover:text-green-400'/> Cleaning          
-          <PiFunnel className='text-5xl hover:text-green-400'/> Preprocessing 
-          <BsBarChartLine className='text-5xl hover:text-green-400'/> Visualization 
+          <div className='flex items-center gap-2 hover:text-green-400'>
+            <HiMiniCircleStack size={size} /> Data Gathering         
+          </div>
+          <div className='flex items-center gap-2 hover:text-green-400'>
+            <LiaBroomSolid size={size} /> Data Cleaning          
+          </div>
+          <div className='flex items-center gap-2 hover:text-green-400'>
+            <PiFunnel size={size} /> Data Preprocessing 
+          </div>
+          <div className='flex items-center gap-2 hover:text-green-400'>
+            <BsBarChartLine size={size} />Data Visualization 
+          </div>
+
         </div>
         I am a research developer experienced in both frontend and backend technologies. I enjoy learning new skills, using new coding tools, building and sharing code solutions with the developer community.
         </p>
