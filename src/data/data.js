@@ -17,9 +17,17 @@ import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_
 import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
 import ReactAppWriteVotingAppImg from '../assets/projects/img_react_appwrite_voting_app.png'
 import HTMLCoffeeShopImg from '../assets/projects/img_js_coffee_shop_page.png'
-
+import ExcelEmployeeChartImg from '../assets/projects/img_excel_employee_chart.png'
 
 export const items = [
+    {
+        id: 20250122,
+        name:"Employee Satisfaction Chart",
+        category: 'Excel',
+        image: ExcelEmployeeChartImg,
+        github:"https://github.com/Erik-Varga/excel-employee-chart",
+        live:"https://github.com/Erik-Varga/excel-employee-chart",
+    },
     {
         id: 20250114,
         name:"Realtime Voting App",
