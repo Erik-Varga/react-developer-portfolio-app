@@ -16,6 +16,7 @@ import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_f
 import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
 import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
 import ReactAppWriteVotingAppImg from '../assets/projects/img_react_appwrite_voting_app.png'
+import HTMLCoffeeShopImg from '../assets/projects/img_js_coffee_shop_page.png'
 
 
 export const items = [
@@ -165,13 +166,21 @@ export const items = [
         live:"https://erik-varga.github.io/js-shut-the-box/",
     },
     {
-        id: 20230516,
-        name:"Asteroids Game",
-        category: 'JavaScript',
-        image: AsteroidsImg,
-        github:"https://github.com/Erik-Varga/js-asteroids-game",
-        live:"https://erik-varga.github.io/js-asteroids-game/",
+        id: 20250123,
+        name:"Coffee Shop Landing Page",
+        category: 'HTML',
+        image: HTMLCoffeeShopImg,
+        github:"https://github.com/Erik-Varga/javascript-coffee-shop",
+        live:"https://erik-varga.github.io/javascript-coffee-shop/",
     },
+    // {
+    //     id: 20230516,
+    //     name:"Asteroids Game",
+    //     category: 'JavaScript',
+    //     image: AsteroidsImg,
+    //     github:"https://github.com/Erik-Varga/js-asteroids-game",
+    //     live:"https://erik-varga.github.io/js-asteroids-game/",
+    // },
     // {
     //     id: 20240501,
     //     name:"React Clock App",
