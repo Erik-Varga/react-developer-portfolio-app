@@ -16,6 +16,7 @@ import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_f
 import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
 import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
 import ReactAppWriteVotingAppImg from '../assets/projects/img_react_appwrite_voting_app.png'
+import TailwindLandingPageImg from '../assets/projects/img_js_landing_page.png'
 import HTMLCoffeeShopImg from '../assets/projects/img_js_coffee_shop_page.png'
 import ExcelEmployeeChartImg from '../assets/projects/img_excel_employee_chart.png'
 
@@ -172,6 +173,14 @@ export const items = [
         image: ShutTheBoxImg,
         github:"https://github.com/Erik-Varga/js-shut-the-box",
         live:"https://erik-varga.github.io/js-shut-the-box/",
+    },
+    {
+        id: 20250125,
+        name:"Tailwind CSS Landing Page",
+        category: 'TailwindCSS',
+        image: TailwindLandingPageImg,
+        github:"https://github.com/Erik-Varga/react-vite-landing-page",
+        live:"https://react-vite-landing-page.vercel.app/",
     },
     {
         id: 20250123,
