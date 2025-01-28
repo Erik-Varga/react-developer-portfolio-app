@@ -19,8 +19,17 @@ import ReactAppWriteVotingAppImg from '../assets/projects/img_react_appwrite_vot
 import TailwindLandingPageImg from '../assets/projects/img_js_landing_page.png'
 import HTMLCoffeeShopImg from '../assets/projects/img_js_coffee_shop_page.png'
 import ExcelEmployeeChartImg from '../assets/projects/img_excel_employee_chart.png'
+import PythonOrderAnalysisImg from '../assets/projects/img_python_orders_analysis.png'
 
 export const items = [
+    {
+        id: 20250128,
+        name:"Restaurant Order Analysis",
+        category: 'Excel',
+        image: PythonOrderAnalysisImg,
+        github:"https://github.com/Erik-Varga/python-order-analysis",
+        live:"https://github.com/Erik-Varga/python-order-analysis/blob/main/Order%20Analysis.pdf",
+    },
     {
         id: 20250122,
         name:"Employee Satisfaction Chart",
