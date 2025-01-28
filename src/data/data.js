@@ -25,7 +25,7 @@ export const items = [
     {
         id: 20250128,
         name:"Restaurant Order Analysis",
-        category: 'Excel',
+        category: 'Python',
         image: PythonOrderAnalysisImg,
         github:"https://github.com/Erik-Varga/python-order-analysis",
         live:"https://github.com/Erik-Varga/python-order-analysis/blob/main/Order%20Analysis.pdf",
