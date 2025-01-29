@@ -33,11 +33,12 @@ const Work = () => {
         </div>
 
         <FilterButton button={buttons} filter={filter} />
-        <FilterMenu menuItem={menuItem} />
         
         <div className='mt-3'>
           {menuItem.length} {menuItem.length === 1 ? 'Project' : 'Projects'}
         </div>
+        
+        <FilterMenu menuItem={menuItem} />
       </div>
     </div>
   );

@@ -16,6 +16,7 @@ import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_f
 import SnapEpassSurveyImg from '../assets/projects/img_snap_epass_survey.png'
 import PowerpointEpassReportImg from '../assets/projects/img_powerpoint_epass_report.png'
 import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
+import SQLTrendReportImg from '../assets/projects/img_sql_trend_report.png'
 import ReactAppWriteVotingAppImg from '../assets/projects/img_react_appwrite_voting_app.png'
 import TailwindLandingPageImg from '../assets/projects/img_js_landing_page.png'
 import HTMLCoffeeShopImg from '../assets/projects/img_js_coffee_shop_page.png'
@@ -48,6 +49,14 @@ export const items = [
         live:"https://react-vite-appwrite-voting-app.vercel.app/",
     },
     {
+        id: 20250124,
+        name:"Monthly Hotel Trend Analysis",
+        category: 'SQL',
+        image: SQLTrendReportImg,
+        github:"https://github.com/Erik-Varga/sql-trend-report",
+        live:"https://github.com/Erik-Varga/sql-trend-report/blob/main/2017_Varga_Trend_Report.pdf",
+    },
+    {
         id: 20250112,
         name:"SQL Syntax & Results",
         category: 'SQL',
@@ -56,20 +65,20 @@ export const items = [
         live:"https://github.com/Erik-Varga/sql-syntax-results/blob/main/SQL%20Syntax%20%26%20Results.pdf",
     },
     {
-        id: 20250126,
-        name:"CFX Epass Survey",
-        category: 'Snap Surveys',
-        image: SnapEpassSurveyImg,
-        github:"https://github.com/Erik-Varga/snap-epass-survey",
-        live:"https://github.com/Erik-Varga/snap-epass-survey/blob/main/sncfx18_epass_v5%20-%20Questionnaire%20(English).pdf",
-    },
-    {
         id: 20250129,
         name:"CFX Epass Report",
         category: 'Powerpoint',
         image: PowerpointEpassReportImg,
         github:"https://github.com/Erik-Varga/snap-epass-survey",
         live:"https://github.com/Erik-Varga/snap-epass-survey/blob/main/CFXway%20-%202018%20Customer%20Opinion%20Survey%20v2.1.pdf",
+    },
+    {
+        id: 20250126,
+        name:"CFX Epass Survey",
+        category: 'Snap Surveys',
+        image: SnapEpassSurveyImg,
+        github:"https://github.com/Erik-Varga/snap-epass-survey",
+        live:"https://github.com/Erik-Varga/snap-epass-survey/blob/main/sncfx18_epass_v5%20-%20Questionnaire%20(English).pdf",
     },
     {
         id: 20240917,
