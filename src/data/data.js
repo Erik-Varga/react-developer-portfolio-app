@@ -13,7 +13,8 @@ import ExcelWeeklyTimesheetImg from '../assets/projects/img_excel_weekly_timeshe
 import ExcelBookkeepingDashboardImg from '../assets/projects/img_excel_bookkeeping_dashboard.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
-import PowerpointCornerBakeryImg from '../assets/projects/img_powerpoint_corner_bakery.png'
+import SnapEpassSurveyImg from '../assets/projects/img_snap_epass_survey.png'
+import PowerpointEpassReportImg from '../assets/projects/img_powerpoint_epass_report.png'
 import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
 import ReactAppWriteVotingAppImg from '../assets/projects/img_react_appwrite_voting_app.png'
 import TailwindLandingPageImg from '../assets/projects/img_js_landing_page.png'
@@ -55,12 +56,20 @@ export const items = [
         live:"https://github.com/Erik-Varga/sql-syntax-results/blob/main/SQL%20Syntax%20%26%20Results.pdf",
     },
     {
-        id: 20240918,
-        name:"Corner Bakery Cafe",
+        id: 20250126,
+        name:"CFX Epass Survey",
+        category: 'Snap Surveys',
+        image: SnapEpassSurveyImg,
+        github:"https://github.com/Erik-Varga/snap-epass-survey",
+        live:"https://github.com/Erik-Varga/snap-epass-survey/blob/main/sncfx18_epass_v5%20-%20Questionnaire%20(English).pdf",
+    },
+    {
+        id: 20250129,
+        name:"CFX Epass Report",
         category: 'Powerpoint',
-        image: PowerpointCornerBakeryImg,
-        github:"https://github.com/Erik-Varga/powerpoint-corner-bakery",
-        live:"https://github.com/Erik-Varga/powerpoint-corner-bakery/blob/main/Corner%20Bakery%20Cafe%20Annual%20Report.pdf",
+        image: PowerpointEpassReportImg,
+        github:"https://github.com/Erik-Varga/snap-epass-survey",
+        live:"https://github.com/Erik-Varga/snap-epass-survey/blob/main/CFXway%20-%202018%20Customer%20Opinion%20Survey%20v2.1.pdf",
     },
     {
         id: 20240917,
