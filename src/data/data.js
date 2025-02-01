@@ -14,7 +14,7 @@ import ExcelBookkeepingDashboardImg from '../assets/projects/img_excel_bookkeepi
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
 import SnapEpassSurveyImg from '../assets/projects/img_snap_epass_survey.png'
-import PowerpointEpassReportImg from '../assets/projects/img_powerpoint_epass_report.png'
+import PowerpointTollRoadReportImg from '../assets/projects/img_powerpoint_toll_road_report.png'
 import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
 import SQLTrendReportImg from '../assets/projects/img_sql_trend_report.png'
 import ReactAppWriteVotingAppImg from '../assets/projects/img_react_appwrite_voting_app.png'
@@ -66,11 +66,11 @@ export const items = [
     },
     {
         id: 20250129,
-        name:"CFX Epass Report",
+        name:"Toll Road Report",
         category: 'Powerpoint',
-        image: PowerpointEpassReportImg,
-        github:"https://github.com/Erik-Varga/snap-epass-survey",
-        live:"https://github.com/Erik-Varga/snap-epass-survey/blob/main/CFXway%20-%202018%20Customer%20Opinion%20Survey%20v2.1.pdf",
+        image: PowerpointTollRoadReportImg,
+        github:"https://github.com/Erik-Varga/toll-road-report",
+        live:"https://github.com/Erik-Varga/toll-road-report/blob/main/Powerpoint%20Toll%20Road%20Survey.pdf",
     },
     {
         id: 20250126,
