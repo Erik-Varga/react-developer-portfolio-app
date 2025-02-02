@@ -13,7 +13,7 @@ import ExcelWeeklyTimesheetImg from '../assets/projects/img_excel_weekly_timeshe
 import ExcelBookkeepingDashboardImg from '../assets/projects/img_excel_bookkeeping_dashboard.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
 import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
-import SnapEpassSurveyImg from '../assets/projects/img_snap_epass_survey.png'
+import ReactMultiStepForm from '../assets/projects/img_react_multi_step_form.png'
 import PowerpointTollRoadReportImg from '../assets/projects/img_powerpoint_toll_road_report.png'
 import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
 import SQLTrendReportImg from '../assets/projects/img_sql_trend_report.png'
@@ -74,11 +74,11 @@ export const items = [
     },
     {
         id: 20250126,
-        name:"CFX Epass Survey",
-        category: 'Snap Surveys',
-        image: SnapEpassSurveyImg,
-        github:"https://github.com/Erik-Varga/snap-epass-survey",
-        live:"https://github.com/Erik-Varga/snap-epass-survey/blob/main/sncfx18_epass_v5%20-%20Questionnaire%20(English).pdf",
+        name:"Multi-Step Form",
+        category: 'React JS',
+        image: ReactMultiStepForm,
+        github:"https://github.com/Erik-Varga/react-vite-multi-step-form",
+        live:"https://react-vite-multi-step-form.vercel.app/",
     },
     {
         id: 20240917,
