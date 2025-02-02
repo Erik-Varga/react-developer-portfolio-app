@@ -22,6 +22,7 @@ import TailwindLandingPageImg from '../assets/projects/img_js_landing_page.png'
 import HTMLCoffeeShopImg from '../assets/projects/img_js_coffee_shop_page.png'
 import ExcelEmployeeChartImg from '../assets/projects/img_excel_employee_chart.png'
 import PythonOrderAnalysisImg from '../assets/projects/img_python_orders_analysis.png'
+import WordCustomerSurveyImg from '../assets/projects/img_word_customer_survey.png'
 
 export const items = [
     {
@@ -193,6 +194,14 @@ export const items = [
     //     github:"https://github.com/Erik-Varga/react-memory-game",
     //     live:"https://react-memory-game-omega-coral.vercel.app/",
     // },
+    {
+        id: 20250202,
+        name:"Customer Satisfaction Survey",
+        category: 'Word',
+        image: WordCustomerSurveyImg,
+        github:"https://github.com/Erik-Varga/word-customer-survey",
+        live:"https://github.com/Erik-Varga/word-customer-survey/blob/main/Word%20Customer%20Satisfaction%20Survey.pdf",
+    },
     {
         id: 20230513,
         name:"Shut The Box Game",
