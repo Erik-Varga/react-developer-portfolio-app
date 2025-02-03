@@ -57,12 +57,12 @@ const Home = () => {
           </span>
         </div>
         <div className='flex flex-wrap gap-8 my-5'>
-          <div className='flex flex-col justify-center'><FcSurvey size={size*2} />Surveys</div>
-          <div className='flex flex-col justify-center'><BsDatabaseAdd size={size*2} />Datasets</div>
-          <div className='flex flex-col justify-center'><CgChart size={size*2} />Analytics</div>
-          <div className='flex flex-col justify-center'><MdWebStories size={size*2} />Web Apps</div>
-          <div className='flex flex-col justify-center'><CgRemote size={size*2} />Remote</div>
-          <div className='flex flex-col justify-center'><FaHandshake size={size*2} />In-Person</div>
+          <div className='flex flex-col justify-center'><FcSurvey size={size*1.5} />Surveys</div>
+          <div className='flex flex-col justify-center'><BsDatabaseAdd size={size*1.5} />Datasets</div>
+          <div className='flex flex-col justify-center'><CgChart size={size*1.5} />Analytics</div>
+          <div className='flex flex-col justify-center'><MdWebStories size={size*1.5} />Web Apps</div>
+          <div className='flex flex-col justify-center'><CgRemote size={size*1.5} />Remote</div>
+          <div className='flex flex-col justify-center'><FaHandshake size={size*1.5} />In-Person</div>
         </div>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:text-white hover:bg-blue-800 hover:border-blue-700">
