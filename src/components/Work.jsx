@@ -51,7 +51,7 @@ const Work = () => {
         <FeaturedMenu featuredMenuItem={featuredMenuItem} />
         
         <div className='flex items-center gap-2 my-5'>
-          {showAll ? "Hide More" : (<div>Show <span className='underline'>More</span></div>)} Projects 
+          {showAll ? "Hide More" : (<div>Show More</div>)} Projects 
           
           <button onClick={() => setShowAll(!showAll)}>
             { showAll ? (<BiChevronDown size={30} />) : (<BiChevronRight size={30} />) }
