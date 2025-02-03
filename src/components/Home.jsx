@@ -56,7 +56,7 @@ const Home = () => {
             </Link>
           </span>
         </div>
-        <div className='flex items-center justify-start gap-8 my-5'>
+        <div className='flex flex-wrap gap-8 my-5'>
           <div className='flex flex-col justify-center'><FcSurvey size={size*2} />Surveys</div>
           <div className='flex flex-col justify-center'><BsDatabaseAdd size={size*2} />Datasets</div>
           <div className='flex flex-col justify-center'><CgChart size={size*2} />Analytics</div>
