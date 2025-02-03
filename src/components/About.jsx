@@ -4,7 +4,7 @@ import { BiChart, BiCode } from 'react-icons/bi';
 import { FaChartBar, FaChartColumn } from 'react-icons/fa6';
 
 const About = () => {
-  const size = 25;
+  const size = 20;
 
   return (
     <div name='about' className='w-full md:h-screen bg-primary dark:bg-dark-primary text-white dark:text-black'>
@@ -17,10 +17,10 @@ const About = () => {
           </div>
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-          <div className='sm:text-center text-4xl font-bold'>
+          <div className='sm:text-center text-2xl font-bold'>
             <img src={Img} alt="" width="300px" height="300px" className='flex w-auto justify-end' />
             <p className='mt-2 mb-1 text-3xl font-bold'>Erik Varga</p>
-            <p className='flex justify-center items-center gap-5 text-2xl'>
+            <p className='flex justify-center items-center gap-5'>
               <BiCode size={size} />Developer
               <FaChartColumn size={size} />Data Analyst</p>
           </div>

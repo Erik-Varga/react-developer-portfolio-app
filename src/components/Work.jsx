@@ -2,15 +2,22 @@ import React, { useState } from 'react'
 import { items } from "../data/data.js";
 import FilterButton from "./FilterButton.jsx";
 import FilterMenu from "./FilterMenu.jsx";
+import { BiChevronDown, BiChevronRight } from 'react-icons/bi';
 
 const allCategories = ['All', ...new Set(items.map(item => item.category))];
 
 const Work = () => {
   // projects file
-  const project = items;
+  const project = items.sort((a, b) => b.id - a.id);
 
   const [menuItem, setMenuItem] = useState(items);
   const [buttons, setButtons] = useState(allCategories);
+
+  const [showAll, setShowAll] = useState(false);
+
+  const toggleShowAll = () => {
+    showAll(!showAll)
+  }
 
   const filter = (button) => {
     if (button === 'All') {
@@ -29,16 +36,34 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-red-700">
             Work
           </p>
-          <p className="py-6">Check out some of my recent work</p>
+          <p className="pt-6">Check out some of my recent work</p>
         </div>
 
-        <FilterButton button={buttons} filter={filter} />
+        <div>Featured Projects</div>
         
-        <div className='mt-3'>
-          {menuItem.length} {menuItem.length === 1 ? 'Project' : 'Projects'}
+        <div className='flex items-center gap-2'>
+          {showAll ? "Hide" : "Show"} Additional Projects 
+          
+          <button onClick={() => setShowAll(!showAll)}>
+            { showAll ? (<BiChevronDown size={30} />) : (<BiChevronRight size={30} />) }
+          </button>
+
+          
+        
         </div>
+
         
-        <FilterMenu menuItem={menuItem} />
+        {showAll && (
+          <div>
+              <FilterButton button={buttons} filter={filter} />
+              <div className='mt-3'>
+                {menuItem.length} {menuItem.length === 1 ? 'Project' : 'Projects'}
+              </div>
+              
+              <FilterMenu menuItem={menuItem} />
+              
+            </div>
+          )}
       </div>
     </div>
   );
