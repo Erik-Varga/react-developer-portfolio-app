@@ -36,7 +36,7 @@ const Skills = () => {
         </div>
 
         {/* grid */}
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-5 text-center py-8">
+        <div className="w-full grid grid-cols-3 sm:grid-cols-4 gap-5 text-center py-8">
           {/* power bi */}
           <div className="flex flex-col justify-between shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto p-1" src={PowerBI_Img} alt="HTML icon" />

@@ -6,14 +6,11 @@ import '../index.css';
 import { HiMiniCircleStack } from 'react-icons/hi2';
 import { LiaBroomSolid } from 'react-icons/lia';
 import { PiFunnel } from 'react-icons/pi';
-import { BsBarChartLine } from 'react-icons/bs';
-import { WindowSize } from './WindowSize';
-import { CgChart, CgDrive } from 'react-icons/cg';
-import { BiRightArrow, BiRightArrowAlt } from 'react-icons/bi';
-import { GiCycle } from 'react-icons/gi';
+import { BsBarChartLine, BsDatabaseAdd } from 'react-icons/bs';
+import { CgChart, CgRemote } from 'react-icons/cg';
 import { FcSurvey } from 'react-icons/fc';
-import { MdDataset, MdDatasetLinked, MdOutlineDataset } from 'react-icons/md';
-import { GrPieChart } from 'react-icons/gr';
+import { MdWebStories } from 'react-icons/md';
+import { FaHandshake } from 'react-icons/fa6';
 
 const Home = () => {
   const size = 25;
@@ -35,7 +32,7 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-color2">
           Business Intelligence
         </h2>
-        <p className="text-color2 py-4">
+        <div className="text-color2 py-4">
         <div className='flex flex-col md:flex-row justify-around items-center gap-5 my-5 text-white font-bold border border-gray-500 p-5 rounded-sm'>
           <div className='flex items-center gap-2 hover:text-green-400'>
             <HiMiniCircleStack size={size} /> Data Gathering         
@@ -51,18 +48,21 @@ const Home = () => {
           </div>
 
         </div>
-        I am a research developer experienced in <span className="font-bold">Qualitative / Quantitative Skills and Technical Programming Languages</span>. I enjoy learning new business skills, utilizing the latest coding tools, building and sharing code solutions to improve the quality of the business orgranization. 
+        I am a research developer experienced in <span className="font-bold">Qualitative / Quantitative Skills and Technical Programming Languages</span>. I enjoy learning new business skills, utilizing the latest coding tools, building and sharing insights to improve the quality of the business orgranization. 
           
           <span className='ml-2 font-bold text-white hover:text-green-400 hover:cursor-pointer'>
             <Link to="about" smooth={true} duration={500}>
               Learn More
             </Link>
           </span>
-        </p>
-        <div className='flex items-center justify-start gap-5'>
+        </div>
+        <div className='flex items-center justify-start gap-8 my-5'>
           <div className='flex flex-col justify-center'><FcSurvey size={size*2} />Surveys</div>
-          <div className='flex flex-col justify-center'><MdOutlineDataset size={size*2} />Datasets</div>
+          <div className='flex flex-col justify-center'><BsDatabaseAdd size={size*2} />Datasets</div>
           <div className='flex flex-col justify-center'><CgChart size={size*2} />Analytics</div>
+          <div className='flex flex-col justify-center'><MdWebStories size={size*2} />Web Apps</div>
+          <div className='flex flex-col justify-center'><CgRemote size={size*2} />Remote</div>
+          <div className='flex flex-col justify-center'><FaHandshake size={size*2} />In-Person</div>
         </div>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:text-white hover:bg-blue-800 hover:border-blue-700">

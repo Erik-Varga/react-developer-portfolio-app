@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import { items } from "../data/data.js";
+import { items, featuredItems } from "../data/data.js";
 import FilterButton from "./FilterButton.jsx";
 import FilterMenu from "./FilterMenu.jsx";
+import FeaturedMenu from "./FeaturedMenu.jsx";
 import { BiChevronDown, BiChevronRight } from 'react-icons/bi';
 
 const allCategories = ['All', ...new Set(items.map(item => item.category))];
@@ -10,14 +11,21 @@ const Work = () => {
   // projects file
   const project = items.sort((a, b) => b.id - a.id);
 
-  const [menuItem, setMenuItem] = useState(items);
+  let unshuffled = project;
+
+  let shuffled = unshuffled
+    .map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value)
+  
+  
+
+  const [menuItem, setMenuItem] = useState(shuffled);
+  // const [menuItem, setMenuItem] = useState(items);
+  const [featuredMenuItem, setFeaturedMenuItem] = useState(featuredItems);
+
   const [buttons, setButtons] = useState(allCategories);
-
   const [showAll, setShowAll] = useState(false);
-
-  const toggleShowAll = () => {
-    showAll(!showAll)
-  }
 
   const filter = (button) => {
     if (button === 'All') {
@@ -39,29 +47,24 @@ const Work = () => {
           <p className="pt-6">Check out some of my recent work</p>
         </div>
 
-        <div>Featured Projects</div>
+        <div className='my-5 border-b text-2xl'>Featured Projects</div>
+        <FeaturedMenu featuredMenuItem={featuredMenuItem} />
         
-        <div className='flex items-center gap-2'>
-          {showAll ? "Hide" : "Show"} Additional Projects 
+        <div className='flex items-center gap-2 my-5'>
+          {showAll ? "Hide More" : (<div>Show <span className='underline'>More</span></div>)} Projects 
           
           <button onClick={() => setShowAll(!showAll)}>
             { showAll ? (<BiChevronDown size={30} />) : (<BiChevronRight size={30} />) }
           </button>
-
-          
-        
         </div>
 
-        
         {showAll && (
           <div>
               <FilterButton button={buttons} filter={filter} />
-              <div className='mt-3'>
+              <div className='my-5'>
                 {menuItem.length} {menuItem.length === 1 ? 'Project' : 'Projects'}
               </div>
-              
               <FilterMenu menuItem={menuItem} />
-              
             </div>
           )}
       </div>

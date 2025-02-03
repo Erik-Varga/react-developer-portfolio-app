@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './index.css';
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       </div>
       <About />
       <Skills />
+      <Experience />
       <Work />
       <Resume />
       <Contact />

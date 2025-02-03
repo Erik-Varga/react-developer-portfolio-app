@@ -1,9 +1,9 @@
 import React from "react";
 
-function FilterMenu({ menuItem }) {
+function FeaturedMenu({ featuredMenuItem }) {
   return (
     <div className="item grid md:grid-cols-3 gap-3">
-      {menuItem.map((item) => {
+      {featuredMenuItem.map((item) => {
         return (
           <div
             className="item-container flex flex-col justify-between p-1 border border-gray-500 hover:border-white hover:scale-105 transition duration-300 ease-in-out"
@@ -65,4 +65,4 @@ function FilterMenu({ menuItem }) {
   );
 }
 
-export default FilterMenu;
+export default FeaturedMenu;
