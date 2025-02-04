@@ -4,6 +4,16 @@ import ResumePDF from '../assets/files/ErikVargaResume2024.pdf';
 import { FaRegFilePdf } from 'react-icons/fa6';
 
 const Resume = () => {
+    const onButtonClick = () => {
+        const pdfUrl = "Sample.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "ErikVargaResume2024.pdf"; // specify the filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <div name="resume" className="w-full text-gray-300 bg-[#0a192f]">
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -12,15 +22,18 @@ const Resume = () => {
                         Resume
                     </p>
                 </div>
+                <button className='font-bold p-2 border rounded border-gray-500' onClick={onButtonClick}>
+                    click to download - Erik Varga Resume PDF
+                </button>
                 <div className="flex flex-col md:flex-row items-center justify-center bg-primary pt-5 text-black">
                     <div className="bg-white p-10 h-auto rounded-sm">
-                        <div>
+                        {/* <div>
                             <button className='text-sm font-bold flex items-center gap-2 mb-5 p-3 border-2 rounded w-auto hover:bg-gray-100 hover:text-slate-800'>Download
                                 <a href={ResumePDF} download="ErikVargaResume2024" target='_blank'>
                                     <div className='text-3xl'><FaRegFilePdf /></div>
                                 </a>
                             </button>
-                        </div>
+                        </div> */}
                         <h1 className="font-bold text-2xl">Erik Varga</h1>
                         <div>305 Partridge Lane, Longwood, FL 32779</div>
                         <div>321-945-1678</div>
