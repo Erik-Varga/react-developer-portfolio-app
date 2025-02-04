@@ -31,11 +31,10 @@ const About = () => {
               
               <p className='m-2 mb-1 text-3xl font-bold'>Erik Varga</p>
               <p className='flex justify-start items-center gap-5 m-1'>
-                <BiCode size={size} />Developer
-                <FaChartColumn size={size} />Data Analyst
+                Developer | Data Analyst
               </p>
               <p className='flex justify-start items-center gap-5 m-1'>
-                <MdEmail size={size} /><a href="mailto:spudev50@gmail.com">spudev50@gmail.com</a>
+                <MdEmail size={size} /><a href="mailto:spudev50@gmail.com">erikjvarga@gmail.com</a>
               </p>
               <p className='flex justify-start items-center gap-5 m-1'>
                 <BsGithub size={size} /><a href="https://github.com/Erik-Varga">https://github.com/Erik-Varga</a>

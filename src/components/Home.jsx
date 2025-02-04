@@ -23,13 +23,13 @@ const Home = () => {
         <h1 className="mb-2 text-4xl sm:text-7xl font-bold text-color1">
           ERIK VARGA
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-color2">
+        <h2 className="text-4xl sm:text-6xl font-bold text-color2">
           Research Developer,
         </h2>
-        <h2 className="text-4xl sm:text-7xl font-bold text-color2">
+        <h2 className="text-4xl sm:text-6xl font-bold text-color2">
            Data Analyst,
         </h2>
-        <h2 className="text-4xl sm:text-7xl font-bold text-color2">
+        <h2 className="text-4xl sm:text-6xl font-bold text-color2">
           Business Intelligence
         </h2>
         <div className="text-color2 py-4">
