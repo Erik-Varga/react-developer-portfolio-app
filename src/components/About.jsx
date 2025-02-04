@@ -34,7 +34,7 @@ const About = () => {
                 Developer | Data Analyst
               </p>
               <p className='flex justify-start items-center gap-5 m-1'>
-                <MdEmail size={size} /><a href="mailto:spudev50@gmail.com">erikjvarga@gmail.com</a>
+                <MdEmail size={size} /><a href="mailto:erikjvarga@gmail.com">erikjvarga@gmail.com</a>
               </p>
               <p className='flex justify-start items-center gap-5 m-1'>
                 <BsGithub size={size} /><a href="https://github.com/Erik-Varga">https://github.com/Erik-Varga</a>
