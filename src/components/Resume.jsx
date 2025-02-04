@@ -23,7 +23,7 @@ const Resume = () => {
                     </p>
                 </div>
                 <button className='font-bold p-2 border rounded border-gray-500' onClick={onButtonClick}>
-                    click to download - Erik Varga Resume PDF
+                    Download PDF Erik Varga Resume
                 </button>
                 <div className="flex flex-col md:flex-row items-center justify-center bg-primary pt-5 text-black">
                     <div className="bg-white p-10 h-auto rounded-sm">
