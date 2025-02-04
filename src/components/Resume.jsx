@@ -22,18 +22,17 @@ const Resume = () => {
                         Resume
                     </p>
                 </div>
-                <button className='font-bold p-2 border rounded border-gray-500' onClick={onButtonClick}>
-                    Download PDF Erik Varga Resume
-                </button>
+                <a
+                    href="/ErikVargaResume2024.pdf"
+                    download="Erik-Varga-Resume-PDF"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <button className='p-2 border border-gray-500 rounded'>Download Erik Varga Resume PDF</button>
+                </a>
                 <div className="flex flex-col md:flex-row items-center justify-center bg-primary pt-5 text-black">
                     <div className="bg-white p-10 h-auto rounded-sm">
-                        {/* <div>
-                            <button className='text-sm font-bold flex items-center gap-2 mb-5 p-3 border-2 rounded w-auto hover:bg-gray-100 hover:text-slate-800'>Download
-                                <a href={ResumePDF} download="ErikVargaResume2024" target='_blank'>
-                                    <div className='text-3xl'><FaRegFilePdf /></div>
-                                </a>
-                            </button>
-                        </div> */}
+
                         <h1 className="font-bold text-2xl">Erik Varga</h1>
                         <div>305 Partridge Lane, Longwood, FL 32779</div>
                         <div>321-945-1678</div>
@@ -67,11 +66,15 @@ const Resume = () => {
                         <div className="mt-4"><span className='font-bold'>Key Clients:</span> Walt Disney World Company, ESPN Wide World of Sports, General Motors, Lynx, YMCA, Expressway Authority (E-Pass), Orlando Int'l Airport, Kissimmee CVB, Brevard Space Coast, AAA, Fun Spot, Zora! Festival, Club Med, and various Central Florida Vacation Resort destinations.</div>
                         <div className="mt-4"><span className='font-bold'>Personal Interests:</span> Active in Scouting, drumming, biking, and cooking.</div>
 
+                        <div>
+                            <button className='mt-3 text-sm font-bold flex items-center gap-2 mb-5 p-3 border-2 rounded w-auto hover:bg-gray-100 hover:text-slate-800'>Download
+                                <a href={ResumePDF} download="ErikVargaResume2024" target='_blank'>
+                                    <div className='text-3xl'><FaRegFilePdf /></div>
+                                </a>
+                            </button>
+                        </div>
                     </div>
 
-                    <div>
-
-                    </div>
                 </div>
 
             </div>
