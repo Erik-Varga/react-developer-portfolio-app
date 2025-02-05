@@ -23,8 +23,20 @@ import HTMLCoffeeShopImg from '../assets/projects/img_js_coffee_shop_page.png'
 import ExcelEmployeeChartImg from '../assets/projects/img_excel_employee_chart.png'
 import PythonOrderAnalysisImg from '../assets/projects/img_python_orders_analysis.png'
 import WordCustomerSurveyImg from '../assets/projects/img_word_customer_survey.png'
+import SPSSGVSReportImg from '../assets/projects/img_spss_gvs_report.png'
 
 export const featuredItems = [
+    {
+        id: 20250205,
+        name: "Central Florida Guest Visitation Report",
+        category: 'SPSS',
+        image: SPSSGVSReportImg,
+        github: "https://github.com/Erik-Varga/guest-visitation-report",
+        live: "https://github.com/Erik-Varga/guest-visitation-report/blob/main/GV2019_QTR3_12Months_All_Hotels.pdf",
+        featured: false,
+        description: "A quarterly hotel report containing detailed information about Guest Visitor Characteristics to the Orlando/Kissimmee area. Respondents were recruiting at local resorts and agreed to participate in a follow-up web Survey. Responses were processed and cross-tabulated using SPSS. The summary findings were shared with the participating resort manager.",
+        technologies: ["Snap", "SPSS", "Word"],
+    },
     {
         id: 20250124,
         name: "Monthly Hotel Trend Analysis",
@@ -46,17 +58,6 @@ export const featuredItems = [
         featured: false,
         description: "A PowerPoint presentation that shares important information about a recent toll road study conducted by my company. Slides include an Executive Summary, Score Card, Customer Service Topics as well as Respondent Demographics.",
         technologies: ["Powerpoint", "SPSS", "Snap Surveys"],
-    },
-    {
-        id: 20250126,
-        name: "Multi-Step Form",
-        category: 'React JS',
-        image: ReactMultiStepForm,
-        github: "https://github.com/Erik-Varga/react-vite-multi-step-form",
-        live: "https://react-vite-multi-step-form.vercel.app/",
-        featured: true,
-        description: "A complete Multi-Step App using React JS Hooks, Context API & Material-UI. Displays submitted form data as output table. Fully responsive!",
-        technologies: ["React JS", "Tailwind CSS", "Material UI", "JavaScript"],
     },
 ]
 
@@ -96,17 +97,6 @@ export const items = [
         technologies: ["React JS", "AppWrite", "Tailwind CSS"],
     },
     {
-        id: 20250124,
-        name: "Monthly Hotel Trend Analysis",
-        category: 'SQL',
-        image: SQLTrendReportImg,
-        github: "https://github.com/Erik-Varga/sql-trend-report",
-        live: "https://github.com/Erik-Varga/sql-trend-report/blob/main/2017_Varga_Trend_Report.pdf",
-        featured: false,
-        description: "An occupancy hotel report gives detailed information on the percentage of available rooms that are filled throughout the duration of the period. This occupancy hotel report is critical for determining how well a hotel performs in terms of room sales. ADR and REVPAR provide additional insight with room revenue metrics",
-        technologies: ["Access", "SQL", ""],
-    },
-    {
         id: 20250112,
         name: "SQL Syntax & Results",
         category: 'SQL',
@@ -116,17 +106,6 @@ export const items = [
         featured: false,
         description: "",
         technologies: ["SQL"],
-    },
-    {
-        id: 20250129,
-        name: "Toll Road Report",
-        category: 'Powerpoint',
-        image: PowerpointTollRoadReportImg,
-        github: "https://github.com/Erik-Varga/toll-road-report",
-        live: "https://github.com/Erik-Varga/toll-road-report/blob/main/Powerpoint%20Toll%20Road%20Survey.pdf",
-        featured: false,
-        description: "A PowerPoint presentation that shares important information about a recent toll road study conducted by my company. Slides include an Executive Summary, Score Card, Customer Service Topics as well as Respondent Demographics.",
-        technologies: ["Powerpoint", "SPSS", "Snap Surveys"],
     },
     {
         id: 20250126,
@@ -139,17 +118,6 @@ export const items = [
         description: "A complete Multi-Step App using React JS Hooks, Context API & Material-UI. Displays submitted form data as output table. Fully responsive!",
         technologies: ["React JS", "Tailwind CSS", "Material UI", "JavaScript"],
     },
-    // {
-    //     id: 20240917,
-    //     name: "Melonhead Farms Dashboard",
-    //     category: 'Power BI',
-    //     image: PowerBIMelonheadFarmsImg,
-    //     github: "https://github.com/Erik-Varga/powerbi-melonhead-farms",
-    //     live: "https://app.powerbi.com/view?r=eyJrIjoiNzdjOTU1MDYtODhhYi00NDY2LTk4N2QtYWE2ZDY2MzZhOTM5IiwidCI6ImRkYzg3Y2EyLTQ5MjgtNDY2Yi04YmMxLTRlYjM0NDIxNDFiMSIsImMiOjJ9",
-    //     featured: false,
-    //     description: "",
-    //     technologies: ["Power BI"],
-    // },
     {
         id: 20240910,
         name: "Customer Satisfaction Analysis",
