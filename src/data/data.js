@@ -12,7 +12,7 @@ import ExcelInvoiceTrackerImg from '../assets/projects/img_excel_invoice_tracker
 import ExcelWeeklyTimesheetImg from '../assets/projects/img_excel_weekly_timesheet.png'
 import ExcelBookkeepingDashboardImg from '../assets/projects/img_excel_bookkeeping_dashboard.png'
 import PowerBICustomerSatisfactionImg from '../assets/projects/img_powerbi_customer_satisfaction.png'
-import PowerBIMelonheadFarmsImg from '../assets/projects/img_powerbi_melonhead_farms_dashboard.png'
+import SPSSZoraReportImg from '../assets/projects/img_spss_zora_report.png'
 import ReactMultiStepForm from '../assets/projects/img_react_multi_step_form.png'
 import PowerpointTollRoadReportImg from '../assets/projects/img_powerpoint_toll_road_report.png'
 import SQLSyntaxResultsImg from '../assets/projects/img_sql_syntax_results.png'
@@ -49,6 +49,21 @@ export const featuredItems = [
         technologies: ["Access", "SQL", "Power BI"],
     },
     {
+        id: 20250204,
+        name: "Zora Festival Survey",
+        category: 'Powerpoint',
+        image: SPSSZoraReportImg,
+        github: "https://github.com/Erik-Varga/spss-zora-survey",
+        live: "https://github.com/Erik-Varga/spss-zora-survey/blob/main/Zora%20Sample%20Report.pdf",
+        featured: false,
+        description: "This intercept survey was conducted at the annual Zora cultural festival and yielded a sample of 290 respondents. The study examines the respondents value rating of the event, length of stay and visitation patterns.",
+        technologies: ["Snap Surveys", "SPSS", "Powerpoint"],
+    },
+]
+
+
+export const items = [
+    {
         id: 20250129,
         name: "Toll Road Report",
         category: 'Powerpoint',
@@ -59,10 +74,6 @@ export const featuredItems = [
         description: "A PowerPoint presentation that shares important information about a recent toll road study conducted by my company. Slides include an Executive Summary, Score Card, Customer Service Topics as well as Respondent Demographics.",
         technologies: ["Powerpoint", "SPSS", "Snap Surveys"],
     },
-]
-
-
-export const items = [
     {
         id: 20250128,
         name: "Restaurant Order Analysis",
