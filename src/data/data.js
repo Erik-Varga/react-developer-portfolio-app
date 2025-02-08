@@ -64,6 +64,17 @@ export const featuredItems = [
 
 export const items = [
     {
+        id: 20230520,
+        name: "Image Resizer",
+        category: 'Javascript',
+        image: PowerpointTollRoadReportImg,
+        github: "https://github.com/Erik-Varga/js-image-resizer",
+        live: "https://erik-varga.github.io/js-image-resizer/",
+        featured: false,
+        description: "An image resizer utility app that compresses image sizes for quicker website loading. The compression slider provides customization. I primarily use this convenient tool for my Garage Sale App so that images aren't so large, allowing webpages with multiple images to load faster. Very convenient.",
+        technologies: ["Javascript", "CSS", "HTML"],
+    },
+    {
         id: 20250129,
         name: "Toll Road Report",
         category: 'Powerpoint',
@@ -276,7 +287,7 @@ export const items = [
         live: "https://github.com/Erik-Varga/word-customer-survey/blob/main/Word%20Customer%20Satisfaction%20Survey.pdf",
         featured: true,
         description: "Understanding customer satisfaction will help you decide where to focus your time and energy to keep customer satisfaction at the highest level possible. It will also help you understand if a new product feature is worth investing in, areas for improvement, and more.",
-        technologies: [],
+        technologies: ["Word"],
     },
     {
         id: 20230513,
@@ -287,7 +298,7 @@ export const items = [
         live: "https://erik-varga.github.io/js-shut-the-box/",
         featured: false,
         description: "The player with the lowest score at the end wins the game. And if you have a score of 0 you Shut The Box and win that round! ",
-        technologies: ["Javascript", "HTML", "CSS"],
+        technologies: ["Javascript", "CSS", "HTML"],
     },
     {
         id: 20250125,
