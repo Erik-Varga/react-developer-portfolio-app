@@ -22,16 +22,18 @@ const Resume = () => {
                         Resume
                     </p>
                 </div>
-                <a
-                    href="/ErikVargaResume2024.pdf"
-                    download="Erik-Varga-Resume-PDF"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <button className='p-2 border border-gray-500 rounded'>Download Erik Varga Resume PDF</button>
-                </a>
+                <div className="px-1">
+                    <a
+                        href="/ErikVargaResume2024.pdf"
+                        download="Erik-Varga-Resume-PDF"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <button className='p-2 border border-gray-500 rounded'>Download Erik Varga Resume PDF</button>
+                    </a>
+                </div>
                 <div className="flex flex-col md:flex-row items-center justify-center bg-primary pt-5 text-black">
-                    <div className="bg-white p-10 h-auto rounded-sm">
+                    <div className="bg-white p-2 sm:p-10 h-auto rounded-sm">
 
                         <h1 className="font-bold text-2xl">Erik Varga</h1>
                         <div>305 Partridge Lane, Longwood, FL 32779</div>
