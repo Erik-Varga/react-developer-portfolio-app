@@ -24,8 +24,20 @@ import ExcelEmployeeChartImg from '../assets/projects/img_excel_employee_chart.p
 import PythonOrderAnalysisImg from '../assets/projects/img_python_orders_analysis.png'
 import WordCustomerSurveyImg from '../assets/projects/img_word_customer_survey.png'
 import SPSSGVSReportImg from '../assets/projects/img_spss_gvs_report.png'
+import ReactModeratorForm from '../assets/projects/img_react_moderator_form.png'
 
 export const featuredItems = [
+    {
+        id: 20250322,
+        name: "Test Moderator Recruitment Form",
+        category: 'React JS',
+        image: ReactModeratorForm,
+        github: "https://github.com/Erik-Varga/wts-moderator-form",
+        live: "https://wts-moderator-form.vercel.app/",
+        featured: false,
+        description: "A functional contact form using React Hooks for form handling / validation, Tailwind for styling and Formatsubmit for email routing. Potential Test Moderators can submit the form directly to a specified contact. Fields are formatted for more accruate input.",
+        technologies: ["React JS", "JavaScript", "Tailwind CSS", "Formsubmit"],
+    },
     {
         id: 20250205,
         name: "Central Florida Guest Visitation Report",
@@ -36,17 +48,6 @@ export const featuredItems = [
         featured: false,
         description: "A quarterly hotel report containing detailed information about Guest Visitor Characteristics to the Orlando/Kissimmee area. Respondents were recruiting at local resorts and agreed to participate in a follow-up web Survey. Responses were processed and cross-tabulated using SPSS. The summary findings were shared with the participating resort manager.",
         technologies: ["Snap", "SPSS", "Word"],
-    },
-    {
-        id: 20250124,
-        name: "Monthly Hotel Trend Analysis",
-        category: 'SQL',
-        image: SQLTrendReportImg,
-        github: "https://github.com/Erik-Varga/sql-trend-report",
-        live: "https://github.com/Erik-Varga/sql-trend-report/blob/main/2017_Varga_Trend_Report.pdf",
-        featured: false,
-        description: "An occupancy hotel report gives detailed information on the percentage of available rooms that are filled throughout the duration of the period. This occupancy hotel report is critical for determining how well a hotel performs in terms of room sales. ADR and REVPAR provide additional insight with room revenue metrics",
-        technologies: ["Access", "SQL", "Power BI"],
     },
     {
         id: 20250204,
@@ -64,15 +65,15 @@ export const featuredItems = [
 
 export const items = [
     {
-        id: 20230520,
-        name: "Image Resizer",
-        category: 'Javascript',
-        image: PowerpointTollRoadReportImg,
-        github: "https://github.com/Erik-Varga/js-image-resizer",
-        live: "https://erik-varga.github.io/js-image-resizer/",
+        id: 20250124,
+        name: "Monthly Hotel Trend Analysis",
+        category: 'SQL',
+        image: SQLTrendReportImg,
+        github: "https://github.com/Erik-Varga/sql-trend-report",
+        live: "https://github.com/Erik-Varga/sql-trend-report/blob/main/2017_Varga_Trend_Report.pdf",
         featured: false,
-        description: "An image resizer utility app that compresses image sizes for quicker website loading. The compression slider provides customization. I primarily use this convenient tool for my Garage Sale App so that images aren't so large, allowing webpages with multiple images to load faster. Very convenient.",
-        technologies: ["Javascript", "CSS", "HTML"],
+        description: "An occupancy hotel report gives detailed information on the percentage of available rooms that are filled throughout the duration of the period. This occupancy hotel report is critical for determining how well a hotel performs in terms of room sales. ADR and REVPAR provide additional insight with room revenue metrics",
+        technologies: ["Access", "SQL", "Power BI"],
     },
     {
         id: 20250129,
@@ -287,7 +288,7 @@ export const items = [
         live: "https://github.com/Erik-Varga/word-customer-survey/blob/main/Word%20Customer%20Satisfaction%20Survey.pdf",
         featured: true,
         description: "Understanding customer satisfaction will help you decide where to focus your time and energy to keep customer satisfaction at the highest level possible. It will also help you understand if a new product feature is worth investing in, areas for improvement, and more.",
-        technologies: ["Word"],
+        technologies: [],
     },
     {
         id: 20230513,
@@ -298,7 +299,7 @@ export const items = [
         live: "https://erik-varga.github.io/js-shut-the-box/",
         featured: false,
         description: "The player with the lowest score at the end wins the game. And if you have a score of 0 you Shut The Box and win that round! ",
-        technologies: ["Javascript", "CSS", "HTML"],
+        technologies: ["Javascript", "HTML", "CSS"],
     },
     {
         id: 20250125,
