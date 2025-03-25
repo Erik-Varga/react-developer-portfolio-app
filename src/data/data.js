@@ -25,8 +25,20 @@ import PythonOrderAnalysisImg from '../assets/projects/img_python_orders_analysi
 import WordCustomerSurveyImg from '../assets/projects/img_word_customer_survey.png'
 import SPSSGVSReportImg from '../assets/projects/img_spss_gvs_report.png'
 import ReactModeratorForm from '../assets/projects/img_react_moderator_form.png'
+import ReactMernBlogImg from '../assets/projects/img_react_mern_blog_app.png'
 
 export const featuredItems = [
+    {
+        id: 20250325,
+        name: "MERN Stack Blog App",
+        category: 'React JS',
+        image: ReactMernBlogImg,
+        github: "https://github.com/Erik-Varga/mern-stack-blog",
+        live: "https://mern-stack-blog-client.vercel.app/",
+        featured: false,
+        description: "A full-stack blog application using Mongodb NoSQL database, Express API Framework, React Frontend UI and Node JS Runtime Environment. This app is currently in development and will be updated often.",
+        technologies: ["Mongodb", "Express", "React JS", "Node JS", "JavaScript", "Tailwind CSS"],
+    },
     {
         id: 20250322,
         name: "Test Moderator Recruitment Form",
@@ -49,6 +61,10 @@ export const featuredItems = [
         description: "A quarterly hotel report containing detailed information about Guest Visitor Characteristics to the Orlando/Kissimmee area. Respondents were recruiting at local resorts and agreed to participate in a follow-up web Survey. Responses were processed and cross-tabulated using SPSS. The summary findings were shared with the participating resort manager.",
         technologies: ["Snap", "SPSS", "Word"],
     },
+]
+
+
+export const items = [
     {
         id: 20250204,
         name: "Zora Festival Survey",
@@ -60,10 +76,6 @@ export const featuredItems = [
         description: "This intercept survey was conducted at the annual Zora cultural festival and yielded a sample of 290 respondents. The study examines the respondents value rating of the event, length of stay and visitation patterns.",
         technologies: ["Snap Surveys", "SPSS", "Powerpoint"],
     },
-]
-
-
-export const items = [
     {
         id: 20250124,
         name: "Monthly Hotel Trend Analysis",
