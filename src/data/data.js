@@ -26,8 +26,20 @@ import WordCustomerSurveyImg from '../assets/projects/img_word_customer_survey.p
 import SPSSGVSReportImg from '../assets/projects/img_spss_gvs_report.png'
 import ReactModeratorForm from '../assets/projects/img_react_moderator_form.png'
 import ReactMernBlogImg from '../assets/projects/img_react_mern_blog_app.png'
+import ReactMernEcommerceImg from '../assets/projects/img_react_mern_ecommerce_app.png'
 
 export const featuredItems = [
+    {
+        id: 20250410,
+        name: "MERN Ecommerce App",
+        category: 'React JS',
+        image: ReactMernEcommerceImg,
+        github: "https://github.com/Erik-Varga/mern-ecommerce",
+        live: "https://mern-ecommerce-client-one.vercel.app/",
+        featured: false,
+        description: "A full-stack e-commerce application using MERN (Mongodb NoSQL database, Express API Framework, React Frontend UI and Node JS Runtime Environment). This app is currently in development.",
+        technologies: ["Mongodb", "Express", "React JS", "Node JS", "JavaScript", "Tailwind CSS"],
+    },
     {
         id: 20250325,
         name: "MERN Stack Blog App",
@@ -36,7 +48,7 @@ export const featuredItems = [
         github: "https://github.com/Erik-Varga/mern-stack-blog",
         live: "https://mern-stack-blog-client.vercel.app/",
         featured: false,
-        description: "A full-stack blog application using Mongodb NoSQL database, Express API Framework, React Frontend UI and Node JS Runtime Environment. This app is currently in development and will be updated often.",
+        description: "A full-stack blog application using Mongodb NoSQL database, Express API Framework, React Frontend UI and Node JS Runtime Environment. This app is currently in development.",
         technologies: ["Mongodb", "Express", "React JS", "Node JS", "JavaScript", "Tailwind CSS"],
     },
     {
