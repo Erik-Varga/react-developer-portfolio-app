@@ -27,6 +27,7 @@ import SPSSGVSReportImg from '../assets/projects/img_spss_gvs_report.png'
 import ReactModeratorForm from '../assets/projects/img_react_moderator_form.png'
 import ReactMernBlogImg from '../assets/projects/img_react_mern_blog_app.png'
 import ReactMernEcommerceImg from '../assets/projects/img_react_mern_ecommerce_app.png'
+import ReactTodoListImg from '../assets/projects/img_react_todo_app.png'
 
 export const featuredItems = [
     {
@@ -37,7 +38,7 @@ export const featuredItems = [
         github: "https://github.com/Erik-Varga/mern-ecommerce",
         live: "https://mern-ecommerce-client-one.vercel.app/",
         featured: false,
-        description: "A full-stack e-commerce application using MERN (Mongodb NoSQL database, Express API Framework, React Frontend UI and Node JS Runtime Environment). This app is currently in development.",
+        description: "A full-stack e-commerce application using MERN (Mongodb NoSQL database, Express API Framework, React Frontend UI and Node JS Runtime Environment).",
         technologies: ["Mongodb", "Express", "React JS", "Node JS", "JavaScript", "Tailwind CSS"],
     },
     {
@@ -78,6 +79,16 @@ export const featuredItems = [
 
 export const items = [
     {
+        id: 20250425,
+        name: "To Do App",
+        category: 'React JS',
+        image: ReactTodoListImg,
+        github: "https://github.com/Erik-Varga/react-todo-list",
+        live: "https://react-todo-list-nine-tau.vercel.app/",
+        featured: false,
+        description: "A simple To Do app using React. Complete CRUD with LocalStorage",
+        technologies: ["React JS", "JavaScript", "Tailwind CSS"],
+    },{
         id: 20250204,
         name: "Zora Festival Survey",
         category: 'Powerpoint',
